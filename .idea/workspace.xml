@@ -5,9 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="87c22ee4-6d6a-473d-a81e-a2ec5ccfcde4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/Utils/ExcelReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/Utils/PropertyReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/Utils/TextReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/base/CommonToAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/driver/DriverManagerTL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/pages/PageFactory/Loginpage_PF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/mamitha/basetest/CommonToAllTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/mamitha/pages/PageObjectModel/Dashboardpage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/pages/PageObjectModel/Dashboardpage_POM.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/mamitha/pages/PageObjectModel/LoginPage_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/mamitha/pages/PageObjectModel/LoginPage_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/mamitha/Tests/TestVWOlogin2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mamitha/Tests/TestVWOloginPOM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/mamitha/Tests/TestVWOloginPOM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/mamitha/Tests/TestVWOloginPOM.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +60,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.TestVWOlogin">
+  <component name="RunManager" selected="TestNG.TestVWOloginPOM">
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ATB5XWebAutomationFramework" />
       <extension name="coverage">
@@ -97,8 +108,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestVWOloginPOM" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB5XWebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mamitha.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mamitha.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.mamitha.Tests.TestVWOloginPOM" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestVWOloginPOM.testLoginNegative" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="ATB5XWebAutomationFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.mamitha.Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.mamitha.Tests" />
+      <option name="MAIN_CLASS_NAME" value="org.mamitha.Tests.TestVWOloginPOM" />
+      <option name="METHOD_NAME" value="testLoginNegative" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TestVWOloginPOM" />
+        <item itemvalue="TestNG.TestVWOloginPOM.testLoginNegative" />
         <item itemvalue="TestNG.TestVWOlogin" />
         <item itemvalue="JUnit.TestVWOLogin" />
         <item itemvalue="JUnit.AppTest" />
@@ -118,5 +166,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/mamitha/Utils/PropertyReader.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
